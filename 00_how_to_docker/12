@@ -1,1 +1,1 @@
-docker run --restart on-failure -d -v hatchery:/var/lib/mysql --name spawning-pool -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings mysql
+docker run --restart on-failure -d -v hatchery:/var/lib/mysql --name spawning-pool -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings mysql:5.7
